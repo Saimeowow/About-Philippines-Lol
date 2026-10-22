@@ -1,0 +1,46 @@
+main {
+padding: 50px 8%;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hintro {
+text-align: center;
+max-width: 800px;
+margin: 0 auto 50px;
+}
+
+.hintro h1 {
+color: rgb(45, 96, 206);
+font-size: 45px;
+margin-bottom: 15px;
+}
+
+.hintro p {
+font-size: 18px;
+line-height: 1.6;
+color: #444;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 70px;
+    border:20px solid rgb(255, 203, 179);
+    border-radius: 8px;
+    padding: 30px;
+}
+.section img {
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.book{
+    color: rgb(0, 89, 255);
+}
+
+.book:hover{
+    color: rgb(41, 223, 255);
+}

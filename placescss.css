@@ -1,0 +1,99 @@
+main {
+padding: 50px 8%;
+}
+
+.plintro {
+text-align: center;
+max-width: 800px;
+margin: 0 auto 50px;
+}
+
+.plintro h1 {
+color: rgb(45, 96, 206);
+font-size: 45px;
+margin-bottom: 15px;
+}
+
+.plintro p {
+font-size: 18px;
+line-height: 1.6;
+color: #444;
+}
+
+.container {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 30px;
+max-width: 1100px;
+margin: auto;
+}
+
+.card {
+background-color: white;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+transition: 0.3s;
+height: 400px;
+}
+
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 7px 18px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+height: 220px;
+background-size: cover;
+background-position: center;
+}
+
+.pal {
+background-image: url("pexels-snapswithluc-37819345.jpg");
+background-size: cover;
+    background-position: center 60%;
+}
+
+.bora {
+background-image: url("laurentiu-morariu-NR-2_RIb62k-unsplash.jpg");
+ background-size: cover;
+    background-position: center 60%;
+
+}
+
+.cebu {
+background-image: url("toa-heftiba-LBMvueaBKT8-unsplash.jpg");
+}
+
+.bohol {
+background-image: url("bohol.jpg");
+}
+
+.siar {
+background-image: url("alejandro-luengo-jMCOul3CK9U-unsplash.jpg");
+}
+
+.batanes {
+background-image: url("jr-padlan--XZuQQ83CIQ-unsplash.jpg");
+}
+
+.bag {
+background-image: url("john-lorenz-tajonera-rB-18BVOd1c-unsplash.jpg");
+background-size: cover;
+    background-position: center 70%;
+}
+.info {
+padding: 20px;
+}
+
+.info h2 {
+color: rgb(45, 96, 206);
+font-size: 27px;
+margin-top: 0;
+}
+
+.info p {
+font-size: 16px;
+line-height: 1.6;
+color: #444;
+}

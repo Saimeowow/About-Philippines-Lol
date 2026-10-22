@@ -1,0 +1,62 @@
+
+.holiday-page {
+    width: 85%;
+    max-width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.holiday-page h1 {
+    color: rgb(45, 96, 206);
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 750px;
+    margin: 0 auto 40px;
+}
+
+.holiday-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.holiday-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+    text-align: left;
+    transition: 0.2s;
+}
+
+.holiday-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.holiday-card h2 {
+    color: rgb(45, 96, 206);
+    margin-top: 0;
+}
+
+.holiday-card .date {
+    font-weight: bold;
+    color: #777;
+}
+
+.holiday-card p {
+    line-height: 1.5;
+}
+.yay {
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
